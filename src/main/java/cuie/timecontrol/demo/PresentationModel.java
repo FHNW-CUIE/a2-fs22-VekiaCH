@@ -11,22 +11,26 @@ import javafx.beans.property.StringProperty;
 
 
 public class PresentationModel {
-    private final ObjectProperty<LocalTime> startTime = new SimpleObjectProperty<>(LocalTime.now());
-    private final StringProperty            label     = new SimpleStringProperty("Time (HH:mm)");
-    private final BooleanProperty           mandatory = new SimpleBooleanProperty(true);
-    private final BooleanProperty           readOnly  = new SimpleBooleanProperty(false);
+    private final ObjectProperty<LocalTime> gameTime = new SimpleObjectProperty<>(LocalTime.of(0,0,0));
+    private final ObjectProperty<LocalTime> blueBlueTime = new SimpleObjectProperty<>(LocalTime.of(0,1,30));
+    private final ObjectProperty<LocalTime> redRedTime = new SimpleObjectProperty<>(LocalTime.of(0,1,30));
+    private final BooleanProperty           blueAlive = new SimpleBooleanProperty(false);
+    private final BooleanProperty           redAlive = new SimpleBooleanProperty(false);
+    private final StringProperty            label     = new SimpleStringProperty("Time (mm:ss)");
+    private final BooleanProperty           pause = new SimpleBooleanProperty(true);
+    private final BooleanProperty           editable  = new SimpleBooleanProperty(false);
 
 
-    public LocalTime getStartTime() {
-        return startTime.get();
+    public LocalTime getGameTime() {
+        return gameTime.get();
     }
 
-    public ObjectProperty<LocalTime> startTimeProperty() {
-        return startTime;
+    public ObjectProperty<LocalTime> gameTimeProperty() {
+        return gameTime;
     }
 
-    public void setStartTime(LocalTime startTime) {
-        this.startTime.set(startTime);
+    public void setGameTime(LocalTime startTime) {
+        this.gameTime.set(startTime);
     }
 
     public String getLabel() {
@@ -42,26 +46,59 @@ public class PresentationModel {
     }
 
     public boolean isMandatory() {
-        return mandatory.get();
+        return pause.get();
     }
 
-    public BooleanProperty mandatoryProperty() {
-        return mandatory;
+    public BooleanProperty pauseProperty() {
+        return pause;
     }
 
-    public void setMandatory(boolean mandatory) {
-        this.mandatory.set(mandatory);
+    public void setMandatory(boolean pause) {
+        this.pause.set(pause);
     }
 
-    public boolean isReadOnly() {
-        return readOnly.get();
+    public boolean isEditable() {
+        return editable.get();
     }
 
-    public BooleanProperty readOnlyProperty() {
-        return readOnly;
+    public BooleanProperty editableProperty() {
+        return editable;
     }
 
-    public void setReadOnly(boolean readOnly) {
-        this.readOnly.set(readOnly);
+    public void setEditable(boolean readOnly) {
+        this.editable.set(readOnly);
+    }
+
+    public LocalTime getBlueBlueTime() {
+        return blueBlueTime.get();
+    }
+
+    public ObjectProperty<LocalTime> blueBlueTimeProperty() {
+        return blueBlueTime;
+    }
+
+    public LocalTime getRedRedTime() {
+        return redRedTime.get();
+    }
+
+    public ObjectProperty<LocalTime> redRedTimeProperty() {
+        return redRedTime;
+    }
+
+    public boolean isBlueAlive() {
+        return blueAlive.get();
+    }
+
+    public BooleanProperty blueAliveProperty() {
+        return blueAlive;
+    }
+
+    public boolean isRedAlive() {
+        return redAlive.get();
+    }
+
+    public BooleanProperty redAliveProperty() {
+        return redAlive;
     }
 }
+

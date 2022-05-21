@@ -6,6 +6,7 @@ import javafx.scene.control.SkinBase;
 
 public enum SkinType {
     DEFAULT_TYPE(TimeSkin::new);
+    //COLOUR_BLIND(ColourBlindSkin::new);
 
     private final Function<TimeControl, SkinBase<TimeControl>> factory;
 

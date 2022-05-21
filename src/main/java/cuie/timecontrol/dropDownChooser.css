@@ -1,0 +1,15 @@
+.dropdown-chooser {
+    -fx-background-color:  transparent;
+    -fx-pref-width:    170;
+    -fx-spacing:       10;
+    -fx-padding:       10, 10, 10, 10;
+}
+
+.dropdown-chooser .text{
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+    -fx-padding: 2;
+    -fx-text-fill: white;
+    -fx-font-family: FontAwesome;
+}
+

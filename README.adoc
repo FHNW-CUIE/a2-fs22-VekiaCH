@@ -2,8 +2,7 @@
 
 === Bearbeitet von
 
-* _Vorname Nachname_
-* _Vorname Nachname_
+* _Kyle Egli_
 
 === Abgabe
 
@@ -12,7 +11,18 @@
 
 === Anwendungskontext
 
-* _kurze Beschreibung des Einsatzgebiets des TimeControl_
+Das TimeControl bietet an, dass man bei League of Legends, die Jungle Monster ihrer Wiederbelebungszeit nicht selber
+wissen muss und kann es jede Zeit die überbleibenden Zeit nachschauen. Solche Tools werden häufig vom normaler Spieler
+benutzt um eine kleine Vorteil über die anderen Spieler zu haben. Das TimeControl soll das auf einfacher Art simulieren.
+Aus zeitlichen werden hier nur 2 aus den 16 Jungle Monsters dargestellt. Die Fehlenden funktionieren vom code her genau
+gleich. Es wird ein Monster vom blauen Team abgebildet und ein vom roten Team. Drück man auf "Play" beginnt die Zeit zu
+laufen. Die Monsters sind erst nach 1.5 Minuten im Spiel am leben. Nach der Zeit taucht auf
+die Karte ein Kreis als Symbol für die Monster auf. Clickt man auf die Monster hat man sie getötet und sie kommen
+standardmässig erst in 5 Minuten wieder zum Leben. Das kann man aber umstellen in dem man auf "Stop" drückt und danach
+auf "Edit". Die Zeitfeldern sind jetzt editierbar und zeigen auch an wenn die Zeit im richtigen Format ist. Drückt man
+"ESC" kommt man wieder aus dem Editmodus. Drück man auf die Pfeiltasten nach Oben oder Unten wird die Zeit imkrementiert
+an der Stelle des Carets. "Reset" setzt das Spiel wieder zurück auf die Defaulteinstellungen. Beim Dropdownchooser kann
+man noch ColorblindModus einschalten. Das setzt alle roten Farben auf Violett und Hellblau.
 
 === Initiale Schritte
 
