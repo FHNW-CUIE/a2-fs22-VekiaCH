@@ -1,0 +1,63 @@
+== CUIE - Assignment 2 - TimeControl
+
+=== Bearbeitet von
+
+* _Vorname Nachname_
+* _Vorname Nachname_
+
+=== Abgabe
+
+* Montag, 23.5.2022, 12:00 Uhr
+* Die Abgabe erfolgt durch ein "Push" auf den Master-Branch Ihres GitHub-Repositories.
+
+=== Anwendungskontext
+
+* _kurze Beschreibung des Einsatzgebiets des TimeControl_
+
+=== Initiale Schritte
+
+* Tragen Sie ihre Namen unter "Bearbeitet von" ein.
+* Pushen Sie diese Änderungen sofort ins Git-Repository (z.B. via `VCS -> Commit… -> Commit & Push`)
+
+=== Aufgabe: BusinessControl
+
+Entwerfen und implementieren Sie das im Unterricht besprochene BusinessControl "TimeControl" auf Basis JavaFX.
+
+* Benutzen Sie zur Umsetzung die vorgegebene Struktur mit Control, Skin und CSS.
+* Beschreiben Sie im Abschnitt 'Anwendungskontext' (siehe oben) kurz für welchen spezifischen Zweck Ihr TimeControl entworfen wurde.
+
+Es wird empfohlen, diese Aufgabe in einem 2-er Team zu bearbeiten.
+
+=== Bewertung
+
+* Für 3 Punkte muss das TimeControl unter 'Anwendungskontext' kurz beschrieben werden und die im Unterricht besprochenen Mindestanforderungen an ein BusinessControl erfüllt sein.
+** die aktuelle Zeit kann angezeigt und verändert werden
+** die Beschriftung kann definiert werden und wird geeignet visualisiert
+** auf die Statuswechsel readOnly/editable, mandatory/optional, valid/invalid, konvertierbar/nicht konvertierbar wird dynamisch reagiert
+** optimale Keyboardunterstützung inklusive Forgiving-Format
+** optimale Maus-Unterstützung innerhalb des DropDownChoosers
+* 0 Punkte gibt es
+** falls das Projekt nicht komplierfähig ist
+** falls die Demo-Applikation bereits beim Start abstürzt
+** falls der im Unterricht erarbeitete und jeweils in Teams zur Verfügung gestellte Stand nicht deutlich erkennbar verändert wurde
+** für Plagiate
+** falls kein aktiver Beitrag eines der beiden Teammitglieder an der Lösung erkennbar ist
+** im Zweifelsfall wird ein Code-Walkthrough durchgeführt
+* In Ausnahmefällen kann es dazu kommen, dass Teammitglieder unterschiedliche Punkte erhalten.
+
+
+=== Bitte beachten Sie
+
+* Falls Sie das Assignment zu zweit bearbeiten:
+** tragen Sie beide Namen unter "Bearbeitet von" ein
+** arbeiten Sie ausschliesslich in einem Repository
+** falls sie beide Zugang zu diesem Repository wollen: tragen Sie die zweite Person als "Collaborator" ein (auf GitHub unter "Settings -> Manage access")
+** löschen Sie das nicht benötigte Repository (auf GitHub unter "Settings")
+** arbeiten Sie gemeinsam und gleichzeitig an den Aufgaben (Stichwort: Pair-Programming)
+** https://www.it-agile.de/wissen/agiles-engineering/pair-programming/[Pair-Programming] heisst insbesondere, dass beide Teammitglieder zu gleichen Teilen aktiv in der Entwickler-Rolle sind. Einem Entwickler lediglich bei seiner Arbeit zuzuschauen ist kein Pair-Programming.
+** für "Remote Pair-Programming" ist das "Code With Me"-Plugin für IntelliJ IDEA sehr zu empfehlen
+** das Aufteilen und separate Bearbeiten von Teil-Aufgaben ist nicht erwünscht
+* Ausdrücklich erlaubt und erwünscht ist, dass Sie sich gegebenenfalls Hilfe holen.
+Nachfragen werden zum Beispiel über den im Repository integrierten
+Issue Tracker oder in MS Teams gerne beantwortet.
+
