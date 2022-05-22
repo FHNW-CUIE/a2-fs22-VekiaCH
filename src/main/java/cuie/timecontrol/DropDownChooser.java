@@ -1,6 +1,5 @@
 package cuie.timecontrol;
 
-import cuie.timecontrol_manufactory.MyTimeControl;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
